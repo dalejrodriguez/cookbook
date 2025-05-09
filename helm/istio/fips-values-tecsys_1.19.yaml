@@ -1,0 +1,11 @@
+pilot:
+  image: istio-pilot-fips
+  tag: "1.19"
+global:
+  hub: cgr.dev/tecsys.com
+  proxy:
+    image: istio-proxy-fips
+  proxy_init:
+    image: istio-proxy-fips
+  tag: "1.19"
+
